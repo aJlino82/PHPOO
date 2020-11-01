@@ -121,7 +121,7 @@ class Programador extends Funcionario
     {
         parent::relatorioFunc();
         echo "Ling. de Programação: {$this->getLinguagem()}<br/><br/>";
-        parent::relatorioFunc();
-        echo "Nome: {$this->getNome()}<br/><br/>";
+        
     }
+    
 }

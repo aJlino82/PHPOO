@@ -1,26 +1,33 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-    <head>
-        <meta charset="utf-8">
-        <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
-        <title>Exercício Herança</title>
-        <link rel="stylesheet" href="estilo.css">
-    </head>
 
-    <body>
-        <div id="quad">
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge;">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <title>Exercício Herança</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <div id="divm">
             <form action="exibirFunc.php" method="post">
-                <p>Nome: <input type="text" name="nome" /></p>
-                <p>Salário: <input type="text" name="salario" /></p>
-                <p>Cargo: <select name="cargo">
-                            <option value="1">Gerente</option>
-                            <option value="2">Programador</option>
-                        </select>
-                </p>
-                <p>Obs: <input type="text" name="obs" /></p>
-                <input type="submit" value="Enviar"/>
-            </form>
-        </div> 
-            
-        </body>
+            <h2>Informações de funcionário</h2>
+            <p>Cpf: <input type="text" name="cpf" /></p>
+            <p>Nome: <input type="text" name="nome" /></p>
+            <p>Idade: <input type="text" name="idade" /></p>
+            <p>Salário: <input type="text" name="salario" /></p>
+            <p>Cargo: <select name="cargo">
+                    <option value="1">Gerente</option>
+                    <option value="2">Programador</option>
+                </select>
+            </p>
+            <p>Obs: <input type="text" name="obs" /></p>
+            <input type="submit" value="Enviar" />
+        </form>
+    </div>
+
+</body>
+
 </html>
