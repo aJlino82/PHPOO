@@ -6,7 +6,7 @@
  use Classes\ContaPoupanca;
 
  $cp = new ContaPoupanca(500);
- $cc = new ContaCorrente(100);
+ $cc = new ContaCorrente(200);
 
  $cp->saca(100);
  $cc->saca(100);
