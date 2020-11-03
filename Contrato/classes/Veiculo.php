@@ -75,4 +75,11 @@ class Veiculo
 
         return $this;
     }
+
+    public function obsVeiculo()
+    {
+        echo "Nome: {$this->getNome()}<br>";
+        echo "Marca: {$this->getMarca()}<br>";
+        echo "Modelo: {$this->getModelo()}<br>";
+    }
 }

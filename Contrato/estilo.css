@@ -1,0 +1,21 @@
+body {
+    background-color: white;
+    color: black;
+    font-weight: normal;
+    font-size: 15px;
+    font-family: Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+    
+}
+#divm {
+    background-color: whitesmoke;
+    text-align: center;
+    margin: auto; 
+    width: 400px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 40px;
+}
+
+
+
+
