@@ -14,4 +14,4 @@ echo $classe1->alimento(' come: ') ."\n"."<br/>"."<br/>";;
 
 $classe2 = new Herbivoro();
 $classe2->imprime();
-echo $classe2->alimento(' come: ') ."\n"."<br/>";
+echo $classe2->alimento(' come: ') ."\n";
