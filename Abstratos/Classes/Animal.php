@@ -4,38 +4,17 @@ namespace Classes;
 
 abstract class Animal
 {
-    public $come;
 
-    public function __construct($come)
-    {
-        $this->come = $come;
-    }
-
-    public function habiltoAlimentar()
-    {
-        
-    }
+  public $come;
 
 
 
+  abstract protected function habitoAlimentar();
+  abstract protected function alimento($comida);
 
-    /**
-     * Get the value of come
-     */
-    public function getCome()
-    {
-        return $this->come;
-    }
 
-    /**
-     * Set the value of come
-     *
-     * @return  self
-     */
-    public function setCome($come)
-    {
-        $this->come = $come;
-
-        return $this;
-    }
+  public function imprime()
+  {
+    print $this->habitoAlimentar();
+  }
 }
